@@ -19,4 +19,6 @@ remove everthing from App.js
 ### 3. rafce shortcut 
 -> to create react component
 
-### 4. used map to show data of array using .map
+4. used map to show data of array using .map
+
+5. using filter to display all numbers in an array except 3 
