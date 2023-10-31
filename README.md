@@ -22,3 +22,10 @@ remove everthing from App.js
 4. used map to show data of array using .map
 
 5. using filter to display all numbers in an array except 3 
+
+6. key in react to identify unique items in array
+
+-> key is used in map and filter to identify unique item for deletion purpose
+
+
+
