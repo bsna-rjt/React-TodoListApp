@@ -3,20 +3,19 @@ import "./App.css";
 
 const App = () => {
   // const arr=[1,2,3,4,5];
-  const arr = [
-    {
-      id: 1,
-      name: "Alice",
-    },
-    {
-      id: 2,
-      name: "Bob",
-    },
-  ];
+  // const arr = [
+  //   {
+  //     id: 1,
+  //     name: "Alice",
+  //   },
+  //   {
+  //     id: 2,
+  //     name: "Bob",
+  //   },
+  // ];
 
   return (
     <div className="App">
-      
       {/* {arr.map((num)=>(
       <div>{num} ,</div>
     ))} */}
@@ -32,6 +31,20 @@ const App = () => {
       })
     } */}
 
+      <div className="container">
+        <h1>To-do List App</h1>
+        <form className="todoForm">
+          <input type="text" />
+          <button>Go</button>
+        </form>
+        <ul className="allTodos">
+          <li className="singleTodo">
+            <span className="todoText">Learn React</span>
+            <button>Edit</button>
+            <button>Delete</button>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
